@@ -1,0 +1,5 @@
+componentDidMount() duoc goi ngay lap tuc sau khi 1 component duoc ket xuat(duoc chen vao tree)
+fetch API la 1 inteface JS cho phep truy cap va thao tung cac phan cua HTTP pipeline, nhu request va response
+fetch() la 1 method toan cuc, cho phep lay tai nguyen 1 cach khong dong bo(asynchronous)
+Promise tra ve tu fetch() se khong loai bo error status(404, 500,...)
+fetch() se khong gui cross-origin cookies
