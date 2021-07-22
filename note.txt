@@ -6,3 +6,5 @@ arrow function thi khong can khai bao trong constructor(), no se tu dong tao cal
 Van de cua arrow function la moi khi callback, neu truyen props xuong component con thi cac component con se render lai
 synthetics event: goi event action(onClick, onChange,...) dang a() thi function a se duoc goi sau khi component render
 con goi event action a thi khi co action thi moi goi den ham a
+
+Deploy: https://create-react-app.dev/docs/deployment/
