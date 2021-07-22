@@ -6,3 +6,6 @@ fetch() se khong gui cross-origin cookies
 import file tu viet vao file khac thi de trong {}
 dung the don thi khong co children truyen sang props khi the duoc goi, con the doi thi co
 setState() la 1 asynchronous function => khi go key trong input onchange co setState, go "a" => tra ve "", go "ab" => "a"
+map() => tao moi array
+filter() => tao moi array
+includes() => tra ve true or false

@@ -1,3 +1,8 @@
 file .component.jsx thi dung export de xuat view ra
 synchronous: 
 asynchronous: 
+function bt can duoc khai bao trong constructor(), nhu vay thi no se duoc callback sau khi class or function render lan dau
+arrow function thi khong can khai bao trong constructor(), no se tu dong tao callback moi khi class component hoac function render
+Van de cua arrow function la moi khi callback, neu truyen props xuong component con thi cac component con se render lai
+synthetics event: goi event action(onClick, onChange,...) dang a() thi function a se duoc goi sau khi component render
+con goi event action a thi khi co action thi moi goi den ham a

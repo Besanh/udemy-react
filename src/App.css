@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+h1{
+  font-family: 'Poppins';
+  font-size: 52px;
+  color: rgb(9, 134, 143);
+}

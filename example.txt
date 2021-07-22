@@ -1,0 +1,40 @@
+MAP: tao moi array
+let arr = [1,2,3,4];
+const map1 = arr.map(x => x*2);
+=> [2,4,6,8]
+
+JS object destructuring:
+let a,b,c;
+const [a,b] = [1,2];
+=> a = 1, b = 2;
+[a,b,...c] = [1,2,3,4,5];
+=> a=1,b=2,c=[3,4,5];
+
+FILTER: tao moi array
+let arr = [1,2,3];
+arr.filter(x => x > 2);
+=> [3];
+
+INCLUDES: true or false
+let arr = [1,2,3,4,5];
+arr.includes(3);
+=> true
+arr.includes(4)
+=> false
+arr.includes(1,2)   // (search, index)
+=> false
+arr.includes(3,1)
+=> true
+let newarr = [{a: 1}, {b:2}, {c:3}];
+newarr.includes({b:2})
+=> false
+const obj1 = {id:1};
+const obj2 = {id:1};
+obj1===obj2
+=>false
+=> Vi JS khong so sanh data type ma so sanh value, chung dc dang ky trong memory 2 vi tri khac nhau
+const a = {id: 1};
+const b = {id: 2};
+const c = {id: 3};
+const amm = [a,b,c];
+amm.includes(a)
