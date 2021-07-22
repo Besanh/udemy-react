@@ -1,0 +1,3 @@
+file .component.jsx thi dung export de xuat view ra
+synchronous: 
+asynchronous: 
