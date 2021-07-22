@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Besanh/udemy-react/static/css/main.518c7af0.chunk.css",
+    "main.js": "/Besanh/udemy-react/static/js/main.dbdd0307.chunk.js",
+    "main.js.map": "/Besanh/udemy-react/static/js/main.dbdd0307.chunk.js.map",
+    "runtime-main.js": "/Besanh/udemy-react/static/js/runtime-main.2fb58aae.js",
+    "runtime-main.js.map": "/Besanh/udemy-react/static/js/runtime-main.2fb58aae.js.map",
+    "static/js/2.1f482aad.chunk.js": "/Besanh/udemy-react/static/js/2.1f482aad.chunk.js",
+    "static/js/2.1f482aad.chunk.js.map": "/Besanh/udemy-react/static/js/2.1f482aad.chunk.js.map",
+    "static/js/3.2954b061.chunk.js": "/Besanh/udemy-react/static/js/3.2954b061.chunk.js",
+    "static/js/3.2954b061.chunk.js.map": "/Besanh/udemy-react/static/js/3.2954b061.chunk.js.map",
+    "index.html": "/Besanh/udemy-react/index.html",
+    "static/css/main.518c7af0.chunk.css.map": "/Besanh/udemy-react/static/css/main.518c7af0.chunk.css.map",
+    "static/js/2.1f482aad.chunk.js.LICENSE.txt": "/Besanh/udemy-react/static/js/2.1f482aad.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Besanh/udemy-react/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2fb58aae.js",
+    "static/js/2.1f482aad.chunk.js",
+    "static/css/main.518c7af0.chunk.css",
+    "static/js/main.dbdd0307.chunk.js"
+  ]
+}
