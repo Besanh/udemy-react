@@ -1,0 +1,5 @@
+tao moi project: npx create-react-app <ten project>
+start project: npm start
+deploy: npm run build
+danh gia bao mat trong thoi gian ngan cua dependencies project: npm audit
+fix loi bao mat nay: npm audit fix

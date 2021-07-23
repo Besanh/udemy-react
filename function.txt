@@ -1,4 +1,15 @@
+LIFE CYCLE METHOD => chi su dung trong class component
 componentDidMount() duoc goi ngay lap tuc sau khi 1 component duoc ket xuat(duoc chen vao tree)
+Proccess: constructor()->render()->React update DOM and refs->componentDidMount()
+componentWillUpdate() duoc goi ngay lap tuc neu xay ra update. Method nay khong duoc goi cho viec khoi tao render
+Proccess: React render->update DOM and refs->componentWillUpdate() khi co (new props, setState, forceUpdate)
+shouldComponentUpdate(): su dung ham nay de React biet neu output component khong bi anh huong boi state or props dang thay doi
+re-render moi khi state thay doi
+Proccess: ne co new props hoac state thi chay truoc => render
+componentWillUnmount() duoc goi ngay lap tuc truoc khi 1 component duoc unmounted(huy ket noi) hoac destroy.
+Khong re-render lai
+Proccess: khong constructor(), khong render, khong update DOM or refs->thuc thi ngay lap tuc
+
 fetch API la 1 inteface JS cho phep truy cap va thao tung cac phan cua HTTP pipeline, nhu request va response
 fetch() la 1 method toan cuc, cho phep lay tai nguyen 1 cach khong dong bo(asynchronous)
 Promise tra ve tu fetch() se khong loai bo error status(404, 500,...)

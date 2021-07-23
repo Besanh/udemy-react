@@ -3,9 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import App2 from './App2';
+// import LifeCycles from './LifeCycles';
 
 ReactDOM.render(
   <React.StrictMode>
+    {/* <App2 increment={1} /> */}
+    {/* <LifeCycles /> */}
     <App />
   </React.StrictMode>,
   document.getElementById('root')
